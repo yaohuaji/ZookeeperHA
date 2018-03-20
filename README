@@ -1,0 +1,4 @@
+使用Zookeeper搭建的一个Service的高可用，服务采用的Java的Rmi。
+RmiClient和RmiServer为Rmi的测试类。
+Client和Server是两个主类，可以依次跑三个Server（端口不同），再跑Client
+，再依次停掉Server，观察Client的输出变化，即可看出Server的高可用性。
